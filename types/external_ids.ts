@@ -1,0 +1,3 @@
+interface ExternalIDS {
+  isrc: string;
+}
