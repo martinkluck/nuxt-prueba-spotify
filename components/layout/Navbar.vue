@@ -22,9 +22,9 @@ const logout = () => {
 </script>
 
 <template>
-  <div class="navbar relative dark:bg-black">
+  <div class="navbar relative dark:bg-black py-5 border-b-2 border-green-400">
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
-      <div class="flex justify-between border-b-2 border-gray-100">
+      <div class="flex justify-between">
         <div class="flex justify-between min-w-full md:min-w-0">
           <div class="md:hidden mt-4">
             <button @click="showSideDrawer = true" type="button"

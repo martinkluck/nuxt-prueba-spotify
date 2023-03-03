@@ -8,7 +8,7 @@
             <div class="hidden md:flex align-bottom">
             </div>
           </nav>
-          <div id="copyright" class="font-normal text-xs text-gray-700">
+          <div id="copyright" class="font-normal text-xs text-gray-700 dark:text-gray-200">
             © {{ new Date().getFullYear() }}. Todos los derechos reservados.
           </div>
         </div>
