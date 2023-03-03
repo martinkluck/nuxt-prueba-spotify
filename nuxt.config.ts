@@ -2,6 +2,11 @@
 export default defineNuxtConfig({
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
+    head: {
+      htmlAttrs: {
+        lang: 'es',
+      },
+    },
   },
   modules: [
     '@nuxtjs/color-mode',
